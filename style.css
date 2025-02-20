@@ -43,11 +43,13 @@ body {
     overflow: hidden;
     text-align: center;
     position: relative;
+    transition: 2s;
 }
-/*.container :hover{
+.card:hover{
     transform: translateX(10px);
     transition: 0.3s ease;
-}*/
+    scale: 1.1;
+}
 .card-header {
     position: relative;
 }
